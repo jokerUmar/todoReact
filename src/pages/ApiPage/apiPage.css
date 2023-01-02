@@ -1,0 +1,30 @@
+.api-list ul{
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.api-list ul li{
+    width: 800px;
+    border: solid 1px gray;
+    font-size: 20px;
+    padding: 9px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.api-list ul li span{
+    margin-right: 20px;
+}
+
+.api-list{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-name{
+    font-size: 20px;
+    display: flex;
+}

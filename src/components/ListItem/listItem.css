@@ -1,0 +1,47 @@
+
+#section-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65.98px;
+    border: 1px solid;
+    padding: 2px 15px;
+    margin-top: 15px;
+}
+
+.section-item_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.section-item_data p , .section-item_data  article {
+    font-size: 22px;
+}
+
+.name-id{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+.section-item_btn__edit , .section-item_btn__delete{
+    background-color: #f0ad4e;
+    color: white;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+}
+.section-item_btn__delete{
+    background-color: #d9534f;
+    margin-left: 10px;
+}
+
+.bg-danger{
+    background-color: red;
+}
+.bg-danger{
+    background-color:  none;
+}
